@@ -94,7 +94,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - BorderPower: 2
+    - BorderSize: 2
+    - DistortionSpeed: 0.1
+    - NoiseScale: 0.1
     - ScrollingSpeed: 0.12
+    - SurfaceMovementSpeed: 0.1
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -122,6 +127,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
+    - BorderColor: {r: 0.3108243, g: 1.1486983, b: 0.63173115, a: 0}
     - TextureColor: {r: 0, g: 14.79766, b: 5.5090857, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
